@@ -61,7 +61,7 @@ public class LatLong
 
 	@Override
 	public String toString() {
-		return "LatLong [lat=" + lat + ", lng=" + lng + "]~TEST";
+		return "LatLong [lat=" + lat + ", lng=" + lng + "]~TEST_sdf";
 	}
 
 }
