@@ -18,6 +18,7 @@ public class PositionTrackingExternalService
 	private RemotePositionMicroserviceCalls remoteService;
 	
     private SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
+    private SimpleDateFormat TIMESTAMP = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 	
 	//@HystrixCommand(fallbackMethod="handleExternalServiceDown")
 	public Collection<VehiclePosition> getAllUpdatedPositionsSince(Date since)
